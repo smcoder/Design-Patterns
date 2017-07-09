@@ -22,4 +22,9 @@ public class ConcreteHandler extends Handler {
             System.out.println("处理请求");
         }
     }
+
+    @Override
+    public String handleFeeRequest(String user, double fee) {
+        return null;
+    }
 }
